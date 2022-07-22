@@ -31,7 +31,6 @@ const Header = () => {
       <div className={styles.navbar}>
         <Link href="./">{`${HEADER.PRODUCTS}`}</Link>
         <Link href="./tycs">{`${HEADER.TYCS}`}</Link>
-        <Link href="./discounts">{`${HEADER.DISCOUNTS}`}</Link>
       </div>
       <div className={styles.localeSwitch}>
         {/* Mediante el atributo locale le indicamos a Next que idioma queremos utilizar al hacer la

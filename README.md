@@ -49,7 +49,7 @@ export const TEXTS_BY_LANGUAGE = {
     HEADER: {
       TYCS: "Términos y condiciones",
       PRODUCTS: "Productos destacados",
-      DISCOUNTS: "Descuentos",
+      DISCOUNTS: "Descuentos", // Esto nos servirá para agregar la opción en el navbar
     },
     MAIN: {
       PRODUCTS: "Productos destacados",
@@ -65,7 +65,7 @@ export const TEXTS_BY_LANGUAGE = {
     HEADER: {
       TYCS: "Termos e Condições",
       PRODUCTS: "Produtos em destaque",
-      DISCOUNTS: "Descontos",
+      DISCOUNTS: "Descontos", // Esto nos servirá para agregar la opción en el navbar
     },
     MAIN: {
       PRODUCTS: "Produtos em destaque",
@@ -231,6 +231,8 @@ De esta manera, ya tenemos nuestro componente conectado con la API.
 
 Ahora que ya tenemos implementado nuestro componente, vamos a escribir los tests. Para ello, vamos a testear el componente por un lado, y el método getServerSideProps por el otro. Recordemos que para esto debemos mockear el método fetch.
 De esta manera, nuestros tests quedarían de la siguiente manera:
+
+_discounts.test.jsx_
 
 ```jsx
 import { render, screen } from "@testing-library/react";

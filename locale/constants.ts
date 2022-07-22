@@ -20,45 +20,30 @@ export const TEXTS_BY_LANGUAGE = {
     HEADER: {
       TYCS: "Terms and conditions",
       PRODUCTS: "Featured Products",
-      DISCOUNTS: "Discounts",
     },
     MAIN: {
       PRODUCTS: "Featured Products",
       TYCS: "Terms and conditions",
-    },
-    DISCOUNTS: {
-      TITLE: "Discounts",
-      EXPIRATION: "Expires",
     },
   },
   [ES_ES]: {
     HEADER: {
       TYCS: "Términos y condiciones",
       PRODUCTS: "Productos destacados",
-      DISCOUNTS: "Descuentos",
     },
     MAIN: {
       PRODUCTS: "Productos destacados",
       TYCS: "Términos y condiciones",
-    },
-    DISCOUNTS: {
-      TITLE: "Descuentos",
-      EXPIRATION: "Validez",
     },
   },
   [PT_BR]: {
     HEADER: {
       TYCS: "Termos e Condições",
       PRODUCTS: "Produtos em destaque",
-      DISCOUNTS: "Descontos",
     },
     MAIN: {
       PRODUCTS: "Produtos em destaque",
       TYCS: "Termos e Condições",
-    },
-    DISCOUNTS: {
-      TITLE: "Descontos",
-      EXPIRATION: "Expiração",
     },
   },
 };
